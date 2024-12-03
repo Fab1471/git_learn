@@ -52,9 +52,10 @@ Comandos: {
     git branch dev # cria uma nova branch com o nome dev neste caso;
     git branch -D dev # deleta a branch chamada dev;
     git checkout -b dev # cria a branch e muda para ela. .
-    git branch -m develop # muda o nome da branch para o novo nome settado. .
+    git branch -m development # muda o nome da branch para o novo nome settado. .
 
     git log main # mostra o log de uma branch específica, neste caso a branch "main";
     
-
+    git switch matrix # muda para a branch matrix neste caso (sai da development e fui para matrix)
+    
 }
