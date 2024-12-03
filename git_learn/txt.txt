@@ -29,6 +29,11 @@ Comandos: {
 
     git diff # mostra a diferença do stage para o working directory;
 
-    
+    git commit -m "1st Commit" - adiciona as mudanças em algum lugar, kkk (onde? ainda não sei)
 
+    git commit -a -m "Alteração Footer" # já adiciona para o stage e commita de uma vez apenas, eliminando um comando (necessário atenção para não comitar outros arquivos que não deseja, pois o comando adiciona e commita todos)
+
+    git commit --amend -m "Update Footer" # funciona apenas para o último commit - reitera o que foi feito;
+
+    
 }
