@@ -16,11 +16,9 @@ Comandos: {
     git clone https://github.com/gabrielfroes/byebg.git byebg # clona um repositório e insere na pasta passada no parâmetro byebg
     
     git add index.html # irá adicionar o arquivo index.html ao git (stage?)
-    
     git status # 
     git add . # adiciona todos os arquivos do 'diretório' para o (stage?)
     git add -A # irá atualizar apenas quem ainda não entrou no stage
-
     git add *.css # adicionará todos que forem .css ao stage, por exemplo. .
 
     git reset index.html # remove o arquivo do stage (removendo o arquivo do stage mas, não alterando o working directory?)
@@ -30,10 +28,33 @@ Comandos: {
     git diff # mostra a diferença do stage para o working directory;
 
     git commit -m "1st Commit" - adiciona as mudanças em algum lugar, kkk (onde? ainda não sei)
-
     git commit -a -m "Alteração Footer" # já adiciona para o stage e commita de uma vez apenas, eliminando um comando (necessário atenção para não comitar outros arquivos que não deseja, pois o comando adiciona e commita todos)
+    git commit --amend -m "Update Footer Message" # funciona apenas para o último commit - reitera o que foi feito e posta;
 
-    git commit --amend -m "Update Footer" # funciona apenas para o último commit - reitera o que foi feito;
+    git diff --staged # mostra a diferença do commit? e o que está staged;
 
+    git log # mostra os logs de modificações dos commits;
+
+    q # geralmente te possibilita sair do git log e do git diff, kkk;
+
+    git log -3 # vai mostrar apenas os últimos 3 commits. .
+    git log --oneline # mostra todos os commits usando apenas uma linha para cada?
+    git log --oneline -5 # mostra os últimos 5 usando apenas uma linha para cada. .
+    git log --oneline -5 --graph # mostra como está a organização das branches. .
+    git log --author="Gabriel Froes" # mostra as logs do author especificado;
+    git log --before="yyyy-mm-dd" # mostra os commits antes da data especificada;
+    git log --data/ # mostra por pasta, neste caso a pasta data;
+    git shortlog # mostra um log resumido por autores e qtdade de commits de cada autor na ordem e listado;
+    git shortlog -sn # mostra a qtdadede commits por autor resumido, sem mostrar o nome do commit.
+    git reflog # log das ações que fazemos dentro do repositório não necessariamente as mudanças e os commits.
+
+    git branch # mostra a branch criada e a branch que está em uso, no meu caso "matrix";
+    git branch dev # cria uma nova branch com o nome dev neste caso;
+    git branch -D dev # deleta a branch chamada dev;
+    git checkout -b dev # cria a branch e muda para ela. .
+    git branch -m develop # muda o nome da branch para o novo nome settado. .
+
+    git log main # mostra o log de uma branch específica, neste caso a branch "main";
     
+
 }
