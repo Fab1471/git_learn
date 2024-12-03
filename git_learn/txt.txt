@@ -1,0 +1,34 @@
+Mini Curso de Git
+
+Comandos: {
+    git config --global user.name "Fabri" # configura o usuário globalmente
+    git config --global user.email "ism.fabri@gmail.com" # configura o email do usuário globalmente
+
+    git config --glogal --list # mostra a lista com as configurações
+    git config --list # se colocar sem o global ele mostrara também as locais
+    git configu user.name "Fabri" # só funcionaria se tivesse um repositório local
+
+    touch index.html style.css script.js # acredito que teria que ter criado os arquivos, mas não foi
+
+    git init # inicializa o repositório
+    git init --bare # tem outras funcionalidades, deixando toda estrutura na raiz
+
+    git clone https://github.com/gabrielfroes/byebg.git byebg # clona um repositório e insere na pasta passada no parâmetro byebg
+    
+    git add index.html # irá adicionar o arquivo index.html ao git (stage?)
+    
+    git status # 
+    git add . # adiciona todos os arquivos do 'diretório' para o (stage?)
+    git add -A # irá atualizar apenas quem ainda não entrou no stage
+
+    git add *.css # adicionará todos que forem .css ao stage, por exemplo. .
+
+    git reset index.html # remove o arquivo do stage (removendo o arquivo do stage mas, não alterando o working directory?)
+
+    git restore txt.txt # restaura o estado anterior do arquivo para seu último update no stage?
+
+    git diff # mostra a diferença do stage para o working directory;
+
+    
+
+}
