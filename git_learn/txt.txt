@@ -58,4 +58,8 @@ Comandos: {
     
     git switch matrix # muda para a branch matrix neste caso (sai da development e fui para matrix)
     
+    git remote add origin https://github.com/Fab1471/git_learn.git # sincroniza o git local com o Github?
+
+
+
 }
