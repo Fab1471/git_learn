@@ -68,6 +68,8 @@ Comandos: {
 
     git push origin matrix ou (main) é bom fazer isto dps de dar merge. .
 
+    git pull # puxa tudo - tem que estar dentro da pasta do projeto?
+
     
 
 }
