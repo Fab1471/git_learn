@@ -64,6 +64,10 @@ Comandos: {
 
     git push origin matrix # já q já foi criado, vamos apenas usar este comando para 'empurrar' para o Github. .
 
+    git merge b2 # utilizado para unir 2 branches?
+
+    git push origin matrix ou (main) é bom fazer isto dps de dar merge. .
+
     
 
 }
