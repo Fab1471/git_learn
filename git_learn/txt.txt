@@ -61,6 +61,9 @@ Comandos: {
     git remote add origin https://github.com/Fab1471/git_learn.git # sincroniza o git local com o Github?
 
     git push - u origin matrix # 'empurra' o site pro Github, kk. .
+
+    git push origin matrix # já q já foi criado, vamos apenas usar este comando para 'empurrar' para o Github. .
+
     
 
 }
